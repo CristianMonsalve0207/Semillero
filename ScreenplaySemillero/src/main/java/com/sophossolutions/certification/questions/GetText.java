@@ -7,6 +7,7 @@ import net.serenitybdd.screenplay.targets.Target;
 
 public class GetText implements Question<String> {
 
+
 	private Target target;
 
 	public GetText(Target target) {

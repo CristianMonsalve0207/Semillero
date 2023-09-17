@@ -6,7 +6,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        glue = { 
+        glue = {
+
         		"com.sophossolutions.certification.stepdefinitions",
         		"com.sophossolutions.certification.hooks"
         },

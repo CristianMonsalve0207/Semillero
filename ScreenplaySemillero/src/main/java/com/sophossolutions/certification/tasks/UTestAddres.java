@@ -24,6 +24,7 @@ import static com.sophossolutions.certification.userinfaces.UtestSignUpCompleteP
 
 public class UTestAddres implements Task {
 
+
     private String zipCode;
 
     private Target btnNextDevices;

@@ -3,6 +3,7 @@ package com.sophossolutions.certification.userinfaces;
 import net.serenitybdd.screenplay.targets.Target;
 
 public class AdvantageOnlineBuyProductPage {
+
     public static final Target COLOR = Target.the("boton seleccionar color").locatedBy("//span[@title='{0}']");
 
     public static final Target QUANTITY = Target.the("boton seleccionar cantidad").locatedBy("//*[@name='quantity']");

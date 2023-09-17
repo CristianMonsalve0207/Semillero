@@ -27,6 +27,7 @@ import static com.sophossolutions.certification.userinfaces.AdvantageOnlineBuyPr
 
 public class AdvantageSelectProduct implements Task {
 
+
     private String category;
     private Target btnSelectCategory;
 

@@ -4,4 +4,5 @@ import net.serenitybdd.screenplay.targets.Target;
 
 public class UtestSignUpDevicesPage {
 
+
 }

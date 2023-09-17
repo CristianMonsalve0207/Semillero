@@ -4,6 +4,7 @@ import net.serenitybdd.screenplay.targets.Target;
 
 public class UtestSignUpAddresPage {
 
+
    // public static final Target USER_CITY = Target.the("Ciudad del usuario").locatedBy("//*[text()='Medellín']");
 
     public static final Target USER_ZIP_CODE = Target.the("ZIP code del usuario").locatedBy("id:zip");

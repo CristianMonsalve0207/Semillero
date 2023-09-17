@@ -3,6 +3,7 @@ package com.sophossolutions.certification.userinfaces;
 import net.serenitybdd.screenplay.targets.Target;
 
 public class PruebaAutomatizacionButtonsTest {
+
     public static final Target BOTON_CICLO_1 = Target.the("boton 64").locatedBy("//*[@value='64']");
 
     public static final Target BOTON_CICLO_2 = Target.the("boton 174").locatedBy("//*[@value='174']");

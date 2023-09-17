@@ -4,6 +4,7 @@ import net.serenitybdd.screenplay.targets.Target;
 
 public class AdvantageOnlineBuyOrderPaymentPage {
 
+
     public static final Target BTN_NEXT = Target.the("boton de login").locatedBy("//*[@id='next_btn']");
 
     public static final Target BTN_PAYMENT_METHOD = Target.the("boton de seleccionar methodo de pago").locatedBy("//*[@name='masterCredit']");

@@ -12,6 +12,7 @@ import static com.sophossolutions.certification.userinfaces.AdvantageOnlineBuyLo
 import static com.sophossolutions.certification.userinfaces.AdvantageOnlineBuyOrderPaymentPage.*;
 
 public class AdvantageLogin implements Task {
+
     private String username;
     private String password;
 

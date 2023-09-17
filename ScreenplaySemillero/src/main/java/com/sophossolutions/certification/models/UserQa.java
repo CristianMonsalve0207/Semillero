@@ -7,6 +7,7 @@ import lombok.Getter;
 @Getter
 @AllArgsConstructor
 public class UserQa {
+
     private String name;
     private String lastName;
     private String email;

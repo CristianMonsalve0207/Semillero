@@ -4,6 +4,7 @@ import net.serenitybdd.screenplay.targets.Target;
 
 public class DemoQaPracticePage {
 
+
     public static final Target NAME = Target.the("campo de first name").locatedBy("(//*[@id='firstName'])");
 
     public static final Target LAST_NAME = Target.the("campo de last name").locatedBy("(//*[@id='lastName'])");

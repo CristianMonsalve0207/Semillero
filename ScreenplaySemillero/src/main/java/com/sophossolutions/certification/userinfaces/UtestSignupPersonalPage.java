@@ -4,6 +4,7 @@ import net.serenitybdd.screenplay.targets.Target;
 
 public class UtestSignupPersonalPage {
 
+
     public  static final Target FIRST_NAME = Target.the("el nombre del usuario").locatedBy("id:firstName");
 
     public  static final Target LAST_NAME = Target.the("el apellido del usuario").locatedBy("id:lastName");

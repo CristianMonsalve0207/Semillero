@@ -7,6 +7,7 @@ import lombok.Getter;
 @AllArgsConstructor
 
 public class UserPost {
+
     private String name;
     private String email;
     private String body;

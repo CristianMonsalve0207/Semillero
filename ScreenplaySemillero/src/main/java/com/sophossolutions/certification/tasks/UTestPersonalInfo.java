@@ -25,6 +25,7 @@ import static com.sophossolutions.certification.userinfaces.UtestSignupPersonalP
 
 public class UTestPersonalInfo implements Task {
 
+
     private Target btnBecomeTester;
     private String firstName;
     private String lastNameUser;

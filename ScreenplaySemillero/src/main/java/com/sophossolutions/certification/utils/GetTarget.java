@@ -9,8 +9,9 @@ import net.serenitybdd.screenplay.targets.Target;
 
 public class GetTarget {
 
+
     public static Target page(String page) {
-        switch (page) {
+        switch (page){
             case "Sauce Home":
                 return TITLE_SAUCE;
 

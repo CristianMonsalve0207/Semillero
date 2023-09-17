@@ -10,6 +10,7 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.targets.Target;
 
 public class DemoQaButtons implements Task {
+
     private Target btnForms;
     private Target btnPracticeForms;
 

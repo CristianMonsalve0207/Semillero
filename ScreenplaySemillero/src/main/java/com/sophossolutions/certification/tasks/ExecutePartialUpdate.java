@@ -10,6 +10,7 @@ import org.apache.http.HttpHeaders;
 import static com.sophossolutions.certification.constans.Secret.TOKEN_BOOKING;
 
 public class ExecutePartialUpdate implements Task {
+
     private String token;
     private String endpoint;
     private Object body;

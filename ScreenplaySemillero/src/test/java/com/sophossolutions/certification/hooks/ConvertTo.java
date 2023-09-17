@@ -11,6 +11,7 @@ import io.cucumber.java.DataTableType;
 
 public class ConvertTo {
 
+
 	@DataTableType
 	public UserCredential theModel(List<String> entry) {
 		return new UserCredential(entry.get(0), entry.get(1));

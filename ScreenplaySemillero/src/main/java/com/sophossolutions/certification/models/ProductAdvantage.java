@@ -6,6 +6,7 @@ import lombok.Getter;
 @Getter
 @AllArgsConstructor
 
+
 public class ProductAdvantage {
     private String category;
     private String product;

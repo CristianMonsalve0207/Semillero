@@ -18,6 +18,7 @@ import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisi
 public class AdvantageFullfillData implements Task {
 
 
+
     private Target btnNext;
 
     private Target btnMethod;

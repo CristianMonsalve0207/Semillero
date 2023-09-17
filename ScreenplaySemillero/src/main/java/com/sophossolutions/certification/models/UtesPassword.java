@@ -7,6 +7,7 @@ import lombok.Getter;
 @Getter
 @AllArgsConstructor
 public class UtesPassword {
+
     private String password;
     private String confirmPassword;
 }

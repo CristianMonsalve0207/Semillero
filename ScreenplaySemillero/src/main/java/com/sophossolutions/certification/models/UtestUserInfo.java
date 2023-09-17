@@ -7,6 +7,7 @@ import lombok.Getter;
 @AllArgsConstructor
 
 public class UtestUserInfo {
+
     private String firtsName;
     private String lastName;
     private String emailAddress;

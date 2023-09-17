@@ -18,6 +18,7 @@ import static com.sophossolutions.certification.userinfaces.UtestSignUpCompleteP
 
 public class UtestUserPassword implements Task {
 
+
     private String password;
     private String confirmPassword;
 

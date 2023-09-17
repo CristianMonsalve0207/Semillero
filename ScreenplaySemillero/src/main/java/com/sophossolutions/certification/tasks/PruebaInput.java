@@ -1,6 +1,5 @@
 package com.sophossolutions.certification.tasks;
 
-import com.sophossolutions.certification.models.UserCredential;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;

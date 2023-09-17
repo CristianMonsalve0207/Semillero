@@ -15,6 +15,7 @@ import net.serenitybdd.screenplay.targets.Target;
 
 public class Login implements Task {
 
+
 	private String user;
 	private String password;
 	private Target btnLogin;

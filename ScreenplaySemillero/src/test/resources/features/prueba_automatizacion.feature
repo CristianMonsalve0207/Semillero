@@ -5,8 +5,7 @@ Feature: Prueba de automatizacion
 
   Scenario Outline: Realizar compra en la pagina advantage
     Given "Cristian" navega a la pagina "https://tasks.evalartapp.com/automatization/"
-    When Seleccionar usuario y contraseña de ingreso
-      | <usuario> | <contraseña> |
+    When Seleccionar usuario y contraseña de ingreso <usuario>, <contraseña>
     And Oprimir los botones y realizar suma
     Then  verifica que el mensaje sea "Felicidades, has terminado la prueba exitosamente" en "evalartapp"
     Examples:

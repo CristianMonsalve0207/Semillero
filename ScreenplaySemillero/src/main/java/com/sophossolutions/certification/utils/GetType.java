@@ -2,6 +2,7 @@ package com.sophossolutions.certification.utils;
 
 public class GetType {
 
+
     public static String ofField(Object value) {
         return value.getClass().getSimpleName();
     }

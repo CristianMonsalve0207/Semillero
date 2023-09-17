@@ -12,6 +12,7 @@ import static com.sophossolutions.certification.userinfaces.CheckOutStepTwoSauce
 
 
 public class FinishBuy implements Task {
+
     private Target btnFinish;
 
     public FinishBuy () {

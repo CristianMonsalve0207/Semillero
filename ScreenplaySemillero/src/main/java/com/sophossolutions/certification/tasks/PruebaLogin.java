@@ -12,6 +12,7 @@ import static com.sophossolutions.certification.userinfaces.PruebaAutomatizacion
 
 public class PruebaLogin implements Task {
 
+
     private String usuario;
     private String contraseña;
     private Target btnEnviar;

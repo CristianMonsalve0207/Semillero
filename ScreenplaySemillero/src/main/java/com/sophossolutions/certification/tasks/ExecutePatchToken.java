@@ -12,6 +12,7 @@ import net.serenitybdd.screenplay.rest.interactions.Patch;
 
 public class ExecutePatchToken implements Task {
 
+
 	private String token;
 	private String endpoint;
 	private Object body;

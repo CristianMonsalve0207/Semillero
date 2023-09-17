@@ -6,7 +6,8 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        glue = { 
+        glue = {
+
         		"com.sophossolutions.certification.stepdefinitions",
         		"com.sophossolutions.certification.hooks"
         },

@@ -16,6 +16,7 @@ import net.serenitybdd.screenplay.targets.Target;
 public class Buy implements Task {
 
 
+
         private String name;
         private String lastName;
         private String postalCode;

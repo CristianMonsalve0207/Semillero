@@ -14,6 +14,7 @@ import static com.sophossolutions.certification.userinfaces.DemoQaPracticePage.*
 public class DemoQAInfo implements Task {
 
 
+
     private String name;
     private String lastNameUser;
     private String email;
