@@ -13,6 +13,7 @@ import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isClic
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class PruebaAutomationStepDefinitions {
+
     @When("^Seleccionar usuario y contraseña de ingreso (.*),(.*)$")
     public void seleccionarUsuarioYContraseñaDeIngreso(UserCredential credentials) {
         theActorInTheSpotlight().attemptsTo(PruebaLogin.in(credentials));

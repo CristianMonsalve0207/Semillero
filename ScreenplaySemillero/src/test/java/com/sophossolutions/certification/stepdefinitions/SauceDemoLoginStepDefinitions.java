@@ -21,6 +21,7 @@ import static org.hamcrest.core.StringContains.containsStringIgnoringCase;
 
 public class SauceDemoLoginStepDefinitions {
 
+
 	@Before
 	public void setup() {
 		setTheStage(new OnlineCast());

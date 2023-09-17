@@ -20,6 +20,7 @@ import net.serenitybdd.screenplay.rest.abilities.CallAnApi;
 
 public class GoRestPatchStepDefinitions {
 
+
     @Given("{string} desea consumir la información en la siguiente {string}")
     public void deseaConsumirLaInformaciónEnLaSiguienteHttpsGorestCoInPublicV2Users(String actorName, String baseUrl) {
         theActorCalled(actorName).whoCan(CallAnApi.at(baseUrl));

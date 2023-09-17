@@ -26,6 +26,7 @@ import static com.sophossolutions.certification.constans.Secret.TOKEN_GO_REST;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public class GoRestPostStepDefinitions {
+
     @When("ejecuta el método post {string} con los siguientes datos")
     public void ejecutaElMétodoPostConLosSiguientesDatos(String endpoint, UserPost bodyUser) {
         theActorInTheSpotlight().attemptsTo(ExecutePostToken.setInfoUser(TOKEN_GO_REST, endpoint, bodyUser));

@@ -18,6 +18,7 @@ import static org.hamcrest.core.StringContains.containsStringIgnoringCase;
 
 public class AdvantageOnlineBuyStepDefinitions {
 
+
     @When("Seleccionar categoria y caracteristicas especificas del producto")
     public void seleccionarCategoriaYCaracteristicasEspecificasDelProducto(ProductAdvantage selectProduct) {
         theActorInTheSpotlight().attemptsTo(AdvantageSelectProduct.in(selectProduct));

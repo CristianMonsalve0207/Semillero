@@ -11,6 +11,7 @@ import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public class DemoQaStepDefinitions {
 
+
         @When("Ingresa los siguientes datos de usuario")
         public void ingresaLosSiguientesDatosDeUsuario(UserQa userqa) {
             theActorInTheSpotlight().attemptsTo(DemoQaButtons.in(),
